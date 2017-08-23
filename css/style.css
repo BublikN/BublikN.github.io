@@ -1,0 +1,133 @@
+html {
+	--max-width:1920px; 
+	/*глобальная переменная со значением*/
+	--white:#fff;
+	font-family: 'Raleway', sans-serif;
+	--green:#18bb7c;
+}
+
+header {
+	max-width: var(--max-width);
+	/*максимальная ширина блока, то есть он может сжиматься и растягиваться но не больше чем на 1920px*/
+	height:1080px;/*h1080*/
+	margin:0 auto;
+	background: url(../img/fon-header.jpg) center top;
+}
+header .content {
+	width: 1170px; /*w1170*/
+	margin:0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 15px; /*pt15*/
+	align-items: center;
+}
+.logo {
+	text-decoration: none; /*td*/
+	color:var(--white);
+	font-size: 36px; /*fz36*/
+	font-family: Georgia; /*ff*/
+}
+.logo img {
+	vertical-align: middle;
+	margin-right: 10px; /*mr10*/
+}
+.menu {
+	color:var(--white);
+	font-size: 30px;
+}
+header h1 {
+	font-size: 63px;/*fz63*/
+	color:var(--white);
+	text-align: center; /*tc*/
+	font-weight: normal; /*fw*/
+	text-transform: capitalize; /*tt*/
+	margin-top: 400px; /*mt400*/
+}
+header h6 {
+	font-size: 21px; /*fz21*/
+	font-weight: 300; /*fw300*/
+	color:var(--white);
+	text-align: center; /*tc*/
+	width: 750px; /*w750*/
+	margin:0 auto;
+	line-height: 28px; /*lh28px*/
+}
+.services {
+	max-width: var(--max-width);
+	margin:0 auto;
+	height:680px; /*h680*/
+	background: #fff url(../img/man.png) 30% bottom no-repeat;
+}
+.services .content {
+	width: 1170px; /*w1170*/
+	margin:0 auto;
+	display:flex;
+	justify-content: flex-end;
+}
+.service-text {
+	width: 580px;/*w580*/
+	margin-top: 100px;
+}
+.service-text h2 {
+	font-size: 30px; /*fz30*/
+	color:#333;
+	font-weight: 100; /*fw100*/
+}
+.service-text p {
+	font-size: 15px; /*fz15*/
+	color:#595959;
+	line-height: 25px; /*lh25px*/
+}
+.service-text a {
+	display: inline-block; /*dib*/
+	width: 94px; /*w94*/
+	height: 94px; /*h94*/
+	border:3px solid var(--green);
+	color:var(--green);
+	border-radius:10px 0;
+	text-align: center;/*tc*/
+	font-size: 55px; /*fz55*/
+	line-height: 94px; /*lh94px*/
+	margin:40px 40px 0 0;
+}
+.service-text a:hover {
+	color:var(--white);
+	background: var(--green);
+}
+.cifr
+{
+	max-width:var(--max-width);
+	height: 380px;
+	margin: 0 auto;
+	background: url(../Unilearn-assets/fon.jpg);
+}
+.cifr .content {
+	width: 1170px;
+	margin: 0 auto;
+	display:flex;
+	justify-content:center;
+	height: 100%;
+	align-items:center;
+}
+.icon-block{
+	color:var(--white);
+	margin: 0 75px;
+	text-align: center;
+
+
+}
+.icon-block i {
+	font-size: 45px;
+}
+
+
+.icon-block h6
+{
+	font-size: 40px;
+	font-weight: 600;
+	margin: 10px 0;
+}
+.icon-block p{
+	font-size: 14px;
+}
+
